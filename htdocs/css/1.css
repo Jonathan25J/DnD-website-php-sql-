@@ -1,0 +1,87 @@
+/* eigen stuff  */
+@font-face { font-family: Common;
+	src: url('../fonts/ttf/Common.ttf'), 
+	url('../fonts/eot/Common.eot'); 
+	}
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(219, 68, 30);
+  font-family: Common, Verdana, sans-serif;
+  font-size: 80px;
+}
+
+.vp {
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+section {
+  background-color: rgb(0, 0, 0);
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(218, 52, 52);
+  padding: 10px;
+  text-align: center;
+  font-size: 25px;
+  color: rgb(0, 0, 0);
+}
+
+@font-face { font-family: DnD; src: url('../fonts/ttf/DnD_font.ttf'); } 
+
+a:link { color:rgb(0, 0, 0);
+ text-decoration:none; 
+ font-weight:none; 
+} 
+
+a:visited { color:rgb(0, 0, 0); 
+ text-decoration:none; 
+ font-weight:none;
+} 
+
+a:hover{ color:rgb(0, 153, 255);
+ text-decoration:underline; 
+ font-weight:none;
+}
+
